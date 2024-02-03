@@ -23,7 +23,7 @@ namespace DisplayDate
         public MainWindow()
         {
             InitializeComponent();
-
+            int x = 5;
             DateTime currentTime = DateTime.Now;
             string formattedTime = currentTime.ToString("HH:mm:ss");
             string formattedDate = currentTime.ToString("dd.MM.yyyy");
@@ -31,6 +31,7 @@ namespace DisplayDate
             DateLabel.Content = "Current time: " + formattedTime + ", Current date: " + formattedDate;
             DateLabel.Content = currentTime;
         }
+        
     }
         
     }
