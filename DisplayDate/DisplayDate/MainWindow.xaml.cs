@@ -23,7 +23,7 @@ namespace DisplayDate
         public MainWindow()
         {
             InitializeComponent();
-            int x = 5;
+            int ShoshiFridman = 5;
             DateTime currentTime = DateTime.Now;
             string formattedTime = currentTime.ToString("HH:mm:ss");
             string formattedDate = currentTime.ToString("dd.MM.yyyy");
