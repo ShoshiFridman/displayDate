@@ -1,0 +1,32 @@
+﻿  bnf.c
+C:\Git\Project1\Project1\bnf.c(30,37): warning C4047: 'function': 'rsize_t' differs in levels of indirection from 'char [20]'
+C:\Git\Project1\Project1\bnf.c(30,32): warning C4024: 'strcat_s': different types for formal and actual parameter 2
+C:\Git\Project1\Project1\bnf.c(30,25): error C2198: 'strcat_s': too few arguments for call
+C:\Git\Project1\Project1\bnf.c(46,11): warning C4013: 'clrscr' undefined; assuming extern returning int
+C:\Git\Project1\Project1\bnf.c(51,28): warning C4047: 'function': 'FILE **' differs in levels of indirection from 'char [10]'
+C:\Git\Project1\Project1\bnf.c(51,17): warning C4024: 'fopen_s': different types for formal and actual parameter 1
+C:\Git\Project1\Project1\bnf.c(51,16): error C2198: 'fopen_s': too few arguments for call
+C:\Git\Project1\Project1\bnf.c(51,34): warning C4047: '=': 'FILE *' differs in levels of indirection from 'errno_t'
+C:\Git\Project1\Project1\bnf.c(54,21): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+C:\Git\Project1\Project1\bnf.c(54,21): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Git\Project1\Project1\bnf.c(54,21): message : the missing variadic argument 2 is required by format string '%s'
+C:\Git\Project1\Project1\bnf.c(54,21): message : this argument is used as a buffer size
+C:\Git\Project1\Project1\bnf.c(60,29): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+C:\Git\Project1\Project1\bnf.c(60,29): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Git\Project1\Project1\bnf.c(60,29): message : the missing variadic argument 2 is required by format string '%s'
+C:\Git\Project1\Project1\bnf.c(60,29): message : this argument is used as a buffer size
+C:\Git\Project1\Project1\bnf.c(65,21): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+C:\Git\Project1\Project1\bnf.c(65,21): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Git\Project1\Project1\bnf.c(65,21): message : the missing variadic argument 2 is required by format string '%s'
+C:\Git\Project1\Project1\bnf.c(65,21): message : this argument is used as a buffer size
+C:\Git\Project1\Project1\bnf.c(79,26): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Git\Project1\Project1\bnf.c(82,17): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Git\Project1\Project1\bnf.c(82,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Git\Project1\Project1\bnf.c(82,17): message : the missing variadic argument 2 is required by format string '%s'
+C:\Git\Project1\Project1\bnf.c(82,17): message : this argument is used as a buffer size
+C:\Git\Project1\Project1\bnf.c(84,17): warning C4013: 'exit' undefined; assuming extern returning int
+C:\Git\Project1\Project1\bnf.c(89,31): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Git\Project1\Project1\bnf.c(90,41): warning C4047: 'function': 'rsize_t' differs in levels of indirection from 'char [10]'
+C:\Git\Project1\Project1\bnf.c(90,38): warning C4024: 'strcpy_s': different types for formal and actual parameter 2
+C:\Git\Project1\Project1\bnf.c(90,21): error C2198: 'strcpy_s': too few arguments for call
+C:\Git\Project1\Project1\bnf.c(118,10): warning C4013: 'getch' undefined; assuming extern returning int
